@@ -1,0 +1,33 @@
+{
+  "name": "ci-cd-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "start": "node app.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/98hub/ci-cd-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/98hub/ci-cd-nodejs/issues"
+  },
+  "homepage": "https://github.com/98hub/ci-cd-nodejs#readme",
+  "description": "A simple Node.js app for CI/CD testing",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
