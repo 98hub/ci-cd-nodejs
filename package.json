@@ -7,6 +7,12 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
+<<<<<<< Updated upstream
+=======
+  "scripts": {
+    "test": "jest"
+  },
+>>>>>>> Stashed changes
   "repository": {
     "type": "git",
     "url": "git+https://github.com/98hub/ci-cd-nodejs.git"
