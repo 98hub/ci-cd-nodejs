@@ -7,9 +7,6 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/98hub/ci-cd-nodejs.git"
