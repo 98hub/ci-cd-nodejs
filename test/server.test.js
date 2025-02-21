@@ -9,10 +9,10 @@ describe('GET /', () => {
     });
 });
 
-describe('GET /dewacloud', () => {
-    it('should return "Hello, Dewacloud Indonesia"', async () => {
-        const res = await request(app).get('/dewacloud');
+describe('GET /dewaweb', () => {
+    it('should return "Hello, Dewaweb Indonesia"', async () => {
+        const res = await request(app).get('/dewaweb');
         expect(res.statusCode).toEqual(200);
-        expect(res.text).toBe('Hello, Dewacloud Indonesia');
+        expect(res.text).toBe('Hello, Dewaweb Indonesia');
     });
 });
