@@ -21,6 +21,6 @@ describe('GET /dewacloud', () => {
     it('should return "Hello, Dewacloud Indonesia"', async () => {
         const res = await request(app).get('/dewacloud');
         expect(res.statusCode).toEqual(200);
-        expect(res.text).toBe('Hello, Dewacloud Indonesia');
+        expect(res.text).toBe('Hello, Dewacloud Indonesia!');
     });
 });
