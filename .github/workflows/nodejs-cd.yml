@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Deploy using ssh
-        uses: 98hub/ssh-action@master
+        uses: 98hub/ci-cd-nodejs@master
         with: 
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
